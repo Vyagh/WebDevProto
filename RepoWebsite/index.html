@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Cryptocurrency Market</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+  </head>
+  <body>
+    <header>
+      <h1>Cryptocurrency Market</h1>
+      <nav>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="markets.html">Markets</a></li>
+            <li><a href="exchanges.html">Exchanges</a></li>
+            <li><a href="tools.html">Tools</a></li>
+            <li><button id="dark-mode-toggle">Toggle Dark Mode</button></li>
+          </ul>
+      </nav>
+    </header>
+    <div id="search-container">
+      <input type="text" id="search-input" placeholder="Search for a cryptocurrency">
+      <button id="search-button">Search</button>
+    </div>
+    <table id="crypto-table">
+      <thead>
+        <tr>
+          <th class = "heading">Name</th>
+          <th class = "heading">Symbol</th>
+          <th class = "heading">Price (USD)</th>
+          <th class = "heading">24 Hour Change</th>
+          <th class = "heading">Market Cap (USD)</th>
+        </tr>
+      </thead>
+      <tbody id="crypto-table-body"></tbody>
+    </table>
+    <footer>Copyright © 2021 Cryptocurrency Market</footer>
+    <script src="script.js"></script>
+  </body>
+</html>
